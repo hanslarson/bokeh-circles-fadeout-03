@@ -1,0 +1,21 @@
+        body {
+          margin: 0;
+        }
+        
+        #bannerContainer {
+          width: 100%;
+          height: 750px;
+          background: gray;
+         
+/*           background-image: url("http://www.mcomexternal136.fds.com/navapp/dyn_img/homepage/2017/07/bokeh/mainbanner_fireworks.jpg"); */
+        }
+        
+        .bokeh {
+          position: relative;
+          width: 0px;
+          height: 0px;
+          -webkit-transition-duration: 4s;
+          -webkit-transition-property: all;
+          -webkit-transition-timing-function: ease-in-out;
+          background:radial-gradient(circle, white 52%, transparent 70%);
+        }
